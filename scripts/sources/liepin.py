@@ -1,132 +1,193 @@
 #!/usr/bin/env python3
 """
-猎聘网数据源 —— 从猎聘校园招聘平台获取产品类校招职位
+猎聘网数据源 —— 浏览器自动化搜索产品类校招职位
 
-来源: https://campus.liepin.com/
-使用猎聘公开 API 搜索产品类校招职位
+使用 Playwright 模拟浏览器访问猎聘校园招聘页面。
+猎聘的 API 端点已变更，直接 HTTP 请求不可用，必须使用浏览器。
+
+依赖: pip install playwright
+首次运行: playwright install chromium
 """
-import json
 import time
 import random
-import urllib.request
+import json
 from typing import Any
 
-from . import build_job, fetch_json, TIER1_CITIES
-
-# 猎聘搜索 API（web 前端使用的开放接口）
-SEARCH_URL = "https://api-c.liepin.com/api/com.liepin.searchfront4c.pc-search-job"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "Origin": "https://www.liepin.com",
-    "Referer": "https://www.liepin.com/zhaopin/",
-}
-
-# 猎聘城市代码
-# 已知有效: 北京=010, 上海=020, 广州=030, 深圳=040
-# TODO: 其余城市代码需从 https://www.liepin.com/zhaopin/ 选择城市后从 URL 中提取
-CITY_CODES = {
-    "北京": "010",
-    "上海": "020",
-    "广州": "030",
-    "深圳": "040",
-    "杭州": "070020",     # 待验证
-    "成都": "",           # 待补充
-    "重庆": "",           # 待补充
-    "武汉": "170020",     # 待验证
-    "苏州": "",           # 待补充
-    "西安": "",           # 待补充
-    "南京": "",           # 待补充
-    "长沙": "",           # 待补充
-    "郑州": "",           # 待补充
-    "天津": "060",        # 待验证
-    "合肥": "",           # 待补充
-    "青岛": "",           # 待补充
-    "东莞": "",           # 待补充
-    "宁波": "",           # 待补充
-    "佛山": "",           # 待补充
-}
+from . import build_job, TIER1_CITIES
 
 
-def search_liepin(keyword: str, city_code: str, page: int = 1) -> list[dict[str, Any]]:
-    """搜索猎聘职位"""
-    import urllib.parse
-    params = (
-        f"key={urllib.parse.quote(keyword)}"
-        f"&city={city_code}"
-        f"&pageNum={page}"
-        f"&pageSize=40"
-        f"&dq=应届生"
-        f"&pubTime="
-        f"&workLevel="
-        f"&salary="
-        f"&compIds="
-        f"&industry="
-        f"&position="
-        f"&compTag="
-    )
-    url = f"{SEARCH_URL}?{params}"
-
-    data = fetch_json(url, headers=HEADERS)
-    if not data:
-        return []
-
+def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[str, Any]]:
+    """使用 Playwright 在猎聘搜索校招职位"""
     jobs = []
+    browser = None
     try:
-        card_list = data.get("data", {}).get("cardList", [])
-    except (AttributeError, KeyError, TypeError):
-        return jobs
+        from playwright.sync_api import sync_playwright
 
-    for card in card_list:
-        if not isinstance(card, dict):
-            continue
-        job_info = card.get("job", {})
-        if not job_info:
-            continue
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                    "--disable-blink-features=AutomationControlled",
+                ],
+            )
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                viewport={"width": 1920, "height": 1080},
+                locale="zh-CN",
+            )
+            page = context.new_page()
 
-        title = job_info.get("title", "")
-        # 只保留产品类职位
-        if not any(kw in title for kw in ["产品", "产品经理", "产品策划", "产品运营"]):
-            continue
+            # 先访问校园招聘页面获取 cookie
+            page.goto("https://campus.liepin.com/", wait_until="networkidle", timeout=30000)
+            time.sleep(2)
 
-        company_name = job_info.get("company", {}).get("name", "")
-        city = job_info.get("city", {}).get("name", "")
-        salary = job_info.get("salary", "")
-        education = job_info.get("eduLevel", {}).get("name", "本科及以上")
+            # 搜索职位
+            search_url = f"https://www.liepin.com/zhaopin/?key={keyword}&dq=应届生&city={city}"
+            page.goto(search_url, wait_until="networkidle", timeout=30000)
+            time.sleep(3)
 
-        # 检查是否为校招
-        job_type = job_info.get("jobType", {})
-        if isinstance(job_type, dict):
-            type_name = job_type.get("name", "")
-        else:
-            type_name = str(job_type) if job_type else ""
+            for page_num in range(max_pages):
+                # 等待页面加载
+                try:
+                    page.wait_for_selector(
+                        ".job-list-item, .job-card, [class*='job-item'], .sojo-result, .job-list-box",
+                        timeout=15000,
+                    )
+                except Exception:
+                    pass
 
-        is_campus = any(kw in type_name for kw in ["校招", "应届", "校园"])
-        if not is_campus:
-            continue
+                # 提取职位卡片 - 尝试多个选择器
+                items = page.query_selector_all(
+                    ".job-card, .job-list-item, [class*='job-item'], "
+                    ".result-list li, .job-list-box .job-item, "
+                    "[class*='card'], [class*='position']"
+                )
 
-        create_time = job_info.get("createTime", "")
-        position_id = job_info.get("positionId", "")
-        apply_url = f"https://www.liepin.com/job/{position_id}.html" if position_id else ""
+                # 尝试从页面获取嵌入的JSON数据
+                try:
+                    script_content = page.content()
+                    import re
+                    # 找 __NUXT__ 或 __NEXT_DATA__ 或 __INITIAL_STATE__
+                    for pattern in [
+                        r'<script>window\.__NUXT__\s*=\s*({.*?})</script>',
+                        r'<script id="__NEXT_DATA__"[^>]*>({.*?})</script>',
+                        r'<script>window\.__INITIAL_STATE__\s*=\s*({.*?})</script>',
+                    ]:
+                        match = re.search(pattern, script_content, re.DOTALL)
+                        if match:
+                            data = json.loads(match.group(1))
+                            # Try to extract job listings from the state
+                            job_list = _extract_from_state(data)
+                            if job_list:
+                                jobs.extend(job_list)
+                                break
+                except Exception:
+                    pass
 
-        description = job_info.get("jobDesc", "")
+                # 如果没有从嵌入式数据找到，则从DOM提取
+                if not jobs:
+                    for item in items:
+                        try:
+                            title_el = item.query_selector(
+                                "h3, .title, .job-name, [class*='title'], a[class*='title']"
+                            )
+                            company_el = item.query_selector(
+                                ".company, .company-name, [class*='company'], a[class*='company']"
+                            )
+                            salary_el = item.query_selector(
+                                ".salary, [class*='salary'], .price, .money"
+                            )
+                            city_el = item.query_selector(
+                                ".city, .location, [class*='city'], [class*='location']"
+                            )
+                            link_el = item.query_selector("a[href]")
 
-        job = build_job(
-            title=title,
-            company=company_name,
-            city=city,
-            salary=salary,
-            source="liepin",
-            apply_url=apply_url,
-            description=description,
-            education=education,
-            posted_at=create_time,
-            job_id=f"liepin-{position_id}",
-        )
-        jobs.append(job)
+                            title = title_el.inner_text().strip() if title_el else ""
+                            company = company_el.inner_text().strip() if company_el else ""
+                            salary = salary_el.inner_text().strip() if salary_el else "面议"
+                            city_text = city_el.inner_text().strip() if city_el else city
+                            link = link_el.get_attribute("href") or "" if link_el else ""
 
+                            if not title or not company:
+                                continue
+
+                            # 只保留产品类
+                            if not any(kw in title for kw in ["产品", "产品经理", "产品策划", "产品运营"]):
+                                continue
+
+                            # 检查校招
+                            item_text = item.inner_text()
+                            is_campus = any(
+                                kw in item_text for kw in ["校招", "应届", "校园", "graduate", "2026", "2025"]
+                            )
+                            if not is_campus:
+                                continue
+
+                            if link and not link.startswith("http"):
+                                link = "https://www.liepin.com" + link
+
+                            job = build_job(
+                                title=title,
+                                company=company,
+                                city=city_text,
+                                salary=salary,
+                                source="liepin",
+                                apply_url=link,
+                            )
+                            jobs.append(job)
+                        except Exception:
+                            continue
+
+                # 翻页
+                try:
+                    next_btn = page.query_selector(
+                        ".pagination-next, .next, a:has-text('下一页'), a:has-text('>')"
+                    )
+                    if next_btn and next_btn.is_enabled():
+                        next_btn.click()
+                        time.sleep(random.uniform(3, 5))
+                        page.wait_for_load_state("networkidle", timeout=15000)
+                    else:
+                        break
+                except Exception:
+                    break
+
+    except ImportError:
+        print("    [猎聘] ⚠️ Playwright 未安装，跳过 (pip install playwright && playwright install chromium)")
+        return []
+    except Exception as e:
+        print(f"    [猎聘] 浏览器自动化错误: {e}")
+    finally:
+        if browser:
+            try:
+                browser.close()
+            except Exception:
+                pass
+
+    return jobs
+
+
+def _extract_from_state(data: dict) -> list[dict[str, Any]]:
+    """从页面状态数据中递归查找职位列表"""
+    jobs = []
+
+    def _search(obj, depth=0):
+        if depth > 5:
+            return
+        if isinstance(obj, dict):
+            # Check if this dict looks like a job
+            if "title" in obj and "company" in obj:
+                jobs.append(obj)
+            # Search in values
+            for v in obj.values():
+                _search(v, depth + 1)
+        elif isinstance(obj, list):
+            for item in obj:
+                _search(item, depth + 1)
+
+    _search(data)
     return jobs
 
 
@@ -134,28 +195,37 @@ def scrape(verbose: bool = True) -> list[dict[str, Any]]:
     """主入口：从猎聘搜索产品类校招职位"""
     all_jobs: list[dict[str, Any]] = []
 
-    keywords = ["产品经理", "产品策划", "AI产品"]
+    keywords = ["产品经理", "产品策划", "AI产品经理"]
 
     if verbose:
-        print(f"  [猎聘] 搜索城市: {list(CITY_CODES.keys())}")
+        print(f"  [猎聘] 使用浏览器自动化搜索校招职位")
         print(f"  [猎聘] 关键词: {keywords}")
+        print(f"  [猎聘] 城市: {TIER1_CITIES[:4]}")
 
     for keyword in keywords:
-        for city_name, city_code in CITY_CODES.items():
+        for city in TIER1_CITIES[:4]:  # 北上广深
             if verbose:
-                print(f"    搜索 {city_name} 关键词 '{keyword}'...", end=" ", flush=True)
+                print(f"    搜索 '{keyword}' @ {city}...", end=" ", flush=True)
             try:
-                jobs = search_liepin(keyword, city_code, page=1)
+                jobs = search_playwright(keyword, city, max_pages=2)
                 all_jobs.extend(jobs)
                 if verbose:
-                    print(f"✅ {len(jobs)} 个职位")
+                    print(f"{'✅' if jobs else '⚠️'} {len(jobs)} 个职位")
             except Exception as e:
                 if verbose:
                     print(f"❌ {e}")
-            # 礼貌延迟
-            time.sleep(random.uniform(1.0, 2.0))
+            time.sleep(random.uniform(2, 4))
+
+    # 去重
+    seen = set()
+    unique = []
+    for j in all_jobs:
+        key = (j["title"], j["company"], j["city"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(j)
 
     if verbose:
-        print(f"  [猎聘] 共获取 {len(all_jobs)} 个产品类校招职位")
+        print(f"  [猎聘] 共获取 {len(unique)} 个产品类校招职位")
 
-    return all_jobs
+    return unique

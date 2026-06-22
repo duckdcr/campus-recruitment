@@ -1,238 +1,176 @@
 #!/usr/bin/env python3
 """
-拉勾网数据源 —— 搜索产品类校招职位
+拉勾网数据源 —— 浏览器自动化搜索产品类校招职位
 
-使用拉勾公开搜索接口，无需登录即可获取职位列表。
-端点: POST https://www.lagou.com/jobs/positionAjax.json?city={city}&needAddtionalResult=false
+使用 Playwright 模拟浏览器访问拉勾校园招聘页面。
+由于拉勾有阿里云 WAF 保护，直接 HTTP 请求会被拦截，必须使用真实浏览器。
+
+依赖: pip install playwright
+首次运行: playwright install chromium
 """
-import json
-import urllib.request
-import urllib.parse
-import http.cookiejar
 import time
 import random
+import json
+from datetime import datetime, timezone
 from typing import Any
 
-from . import build_job, normalize_city, TIER1_CITIES, PRODUCT_KEYWORDS
+from . import build_job, TIER1_CITIES
 
-# 拉勾搜索关键词（产品类）
-SEARCH_KEYWORDS = [
-    "产品经理 校招",
-    "产品经理 应届",
-    "产品 校招",
-    "产品策划 校招",
-    "AI产品 校招",
-    "数据产品 校招",
-]
-
-# Cookie 管理器（先访问首页获取 cookie）
-cookie_jar = http.cookiejar.CookieJar()
-cookie_handler = urllib.request.HTTPCookieProcessor(cookie_jar)
-lagou_opener = urllib.request.build_opener(cookie_handler)
-
-BASE_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-}
+# 拉勾校园招聘搜索URL
+CAMPUS_SEARCH_URL = "https://xiaoyuan.lagou.com/search?"
 
 
-def lagou_init_session():
-    """初始化拉勾会话：访问首页获取必要 cookie"""
-    try:
-        req = urllib.request.Request(
-            "https://www.lagou.com/",
-            headers={**BASE_HEADERS, "Accept": "text/html,application/xhtml+xml"},
-        )
-        lagou_opener.open(req, timeout=15)
-        # 再访问搜索页面以获取 X-Anit-Forge-Token
-        search_page_url = "https://www.lagou.com/jobs/list_%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
-        req2 = urllib.request.Request(
-            search_page_url,
-            headers={**BASE_HEADERS, "Accept": "text/html,application/xhtml+xml"},
-        )
-        lagou_opener.open(req2, timeout=15)
-        return True
-    except Exception as e:
-        print(f"    [WARN] Lagou session init failed: {e}")
-        return False
-
-
-def search_lagou(keyword: str, city: str, page: int = 1) -> dict[str, Any] | None:
-    """搜索拉勾职位"""
-    encoded_city = urllib.parse.quote(city)
-    encoded_keyword = urllib.parse.quote(keyword)
-    url = f"https://www.lagou.com/jobs/positionAjax.json?city={encoded_city}&needAddtionalResult=false"
-
-    payload = f"first=false&pn={page}&kd={keyword}"
-
-    headers = {
-        **BASE_HEADERS,
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "X-Requested-With": "XMLHttpRequest",
-        "X-Anit-Forge-Code": "0",
-        "X-Anit-Forge-Token": "None",
-        "Referer": f"https://www.lagou.com/jobs/list_{encoded_keyword}",
-        "Origin": "https://www.lagou.com",
-    }
-
-    req = urllib.request.Request(
-        url,
-        data=payload.encode("utf-8"),
-        headers=headers,
-        method="POST",
-    )
-
-    try:
-        resp = lagou_opener.open(req, timeout=20)
-        raw = resp.read().decode("utf-8")
-        # 检查是否为 JSON
-        if raw.strip().startswith("{"):
-            return json.loads(raw)
-        else:
-            # HTML 响应 → 被反爬拦截
-            if len(raw) < 200:
-                print(f"    [WARN] Lagou blocked ({keyword}/{city}): {raw[:100]}")
-            else:
-                print(f"    [WARN] Lagou returned HTML instead of JSON (blocked)")
-            return None
-    except json.JSONDecodeError:
-        print(f"    [WARN] Lagou invalid JSON response ({keyword}/{city})")
-        return None
-    except Exception as e:
-        print(f"    [WARN] Lagou search error ({keyword}/{city}/p{page}): {e}")
-        return None
-
-
-def parse_lagou_result(data: dict[str, Any] | None) -> list[dict[str, Any]]:
-    """解析拉勾搜索结果"""
+def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[str, Any]]:
+    """使用 Playwright 在拉勾校园招聘搜索职位"""
     jobs = []
-    if not data:
-        return jobs
-
+    browser = None
     try:
-        content = data.get("content", {})
-        result = content.get("positionResult", {})
-        position_list = result.get("result", [])
-    except (AttributeError, KeyError, TypeError):
-        return jobs
+        from playwright.sync_api import sync_playwright
 
-    for pos in position_list:
-        if not isinstance(pos, dict):
-            continue
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                    "--disable-blink-features=AutomationControlled",
+                ],
+            )
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                viewport={"width": 1920, "height": 1080},
+                locale="zh-CN",
+            )
+            page = context.new_page()
 
-        title = pos.get("positionName", "")
+            # 构建搜索URL
+            params = f"keyword={keyword}&city={city}"
+            url = CAMPUS_SEARCH_URL + params
 
-        # 检查是否为校招/应届岗位
-        work_year = pos.get("workYear", "")
-        is_campus = any(kw in work_year for kw in ["应届", "在校", "校招"])
-        # 拉勾的校招通常标记为"应届毕业生"或空
-        if not is_campus and work_year and "应届" not in work_year and work_year != "在校生":
-            continue
+            page.goto(url, wait_until="networkidle", timeout=30000)
+            time.sleep(2)
 
-        # 薪资解析
-        salary_raw = pos.get("salary", "")
-        # 拉勾格式: "20k-40k"
-        salary = salary_raw if salary_raw else "面议"
+            for page_num in range(max_pages):
+                # 等待职位列表加载
+                try:
+                    page.wait_for_selector(".position-list__item, .job-card, .c-search-result", timeout=10000)
+                except Exception:
+                    pass  # try to parse whatever is on the page
 
-        city = pos.get("city", "")
-        district = pos.get("district", "")
-        location = city
-        if district:
-            location = f"{city}-{district}"
+                # 提取职位卡片
+                items = page.query_selector_all(
+                    ".position-list__item, .job-card, [class*='position'], [class*='job-item'], [class*='search-result-item']"
+                )
 
-        company_name = pos.get("companyFullName", "") or pos.get("companyShortName", "")
-        company_size = pos.get("companySize", "")
-        industry = pos.get("industryField", "")
+                if not items:
+                    # Try alternative selectors
+                    items = page.query_selector_all("a[href*='position'], a[href*='job'], .list-item, tr")
 
-        education = pos.get("education", "本科及以上")
-        if not education:
-            education = "本科及以上"
+                for item in items:
+                    try:
+                        title_el = item.query_selector("h3, .title, .job-title, [class*='title']")
+                        company_el = item.query_selector(".company, .company-name, [class*='company']")
+                        city_el = item.query_selector(".city, .location, [class*='city'], [class*='location']")
+                        salary_el = item.query_selector(".salary, [class*='salary'], .money")
+                        link_el = item.query_selector("a[href]")
 
-        position_id = pos.get("positionId", "")
-        apply_url = f"https://www.lagou.com/wn/jobs/{position_id}.html" if position_id else ""
+                        title = title_el.inner_text().strip() if title_el else ""
+                        company = company_el.inner_text().strip() if company_el else ""
+                        city_text = city_el.inner_text().strip() if city_el else city
+                        salary = salary_el.inner_text().strip() if salary_el else "面议"
+                        link = link_el.get_attribute("href") or "" if link_el else ""
 
-        # 过滤：只保留产品相关职位
-        is_product = any(kw in title for kw in ["产品", "产品经理", "产品策划", "产品运营", "产品设计"])
-        if not is_product:
-            continue
+                        if not title or not company:
+                            continue
 
-        # 发布时间
-        create_time = pos.get("createTime", "")
+                        # 只保留产品相关
+                        if not any(kw in title for kw in ["产品", "产品经理", "产品策划", "产品运营"]):
+                            continue
 
-        job = build_job(
-            title=title,
-            company=company_name,
-            city=city,
-            salary=salary,
-            source="lagou",
-            apply_url=apply_url,
-            education=education,
-            industry=industry or "互联网",
-            posted_at=create_time,
-            job_id=f"lagou-{position_id}",
-        )
-        jobs.append(job)
+                        # 检查是否校招
+                        item_text = item.inner_text()
+                        is_campus = any(kw in item_text for kw in ["校招", "应届", " campus", "graduate", "2026", "2025"])
+                        if not is_campus and "实习" in item_text:
+                            continue
+
+                        if link and not link.startswith("http"):
+                            link = "https://xiaoyuan.lagou.com" + link
+
+                        job = build_job(
+                            title=title,
+                            company=company,
+                            city=city_text,
+                            salary=salary,
+                            source="lagou",
+                            apply_url=link,
+                        )
+                        jobs.append(job)
+                    except Exception:
+                        continue
+
+                # 翻页
+                try:
+                    next_btn = page.query_selector(".next, .pagination-next, a:has-text('下一页')")
+                    if next_btn and next_btn.is_enabled():
+                        next_btn.click()
+                        time.sleep(random.uniform(2, 4))
+                        page.wait_for_load_state("networkidle", timeout=15000)
+                    else:
+                        break
+                except Exception:
+                    break
+
+    except ImportError:
+        print("    [拉勾] ⚠️ Playwright 未安装，跳过 (pip install playwright && playwright install chromium)")
+        return []
+    except Exception as e:
+        print(f"    [拉勾] 浏览器自动化错误: {e}")
+    finally:
+        if browser:
+            try:
+                browser.close()
+            except Exception:
+                pass
 
     return jobs
 
 
 def scrape(verbose: bool = True) -> list[dict[str, Any]]:
-    """主入口：从拉勾搜索产品类校招职位"""
+    """主入口：从拉勾校园招聘搜索产品类校招职位"""
     all_jobs: list[dict[str, Any]] = []
 
-    if verbose:
-        print(f"  [拉勾] 搜索城市: {TIER1_CITIES}")
+    keywords = ["产品经理", "产品策划", "AI产品"]
 
-    # 初始化 Cookie 会话
     if verbose:
-        print(f"    初始化浏览器会话...", end=" ", flush=True)
-    session_ok = lagou_init_session()
-    if verbose:
-        print(f"{'✅' if session_ok else '❌'}")
+        print(f"  [拉勾] 使用浏览器自动化搜索校招职位")
+        print(f"  [拉勾] 关键词: {keywords}")
+        print(f"  [拉勾] 城市: {TIER1_CITIES[:4]}")
 
-    if not session_ok:
-        if verbose:
-            print(f"  [拉勾] 会话初始化失败，跳过")
-        return []
-
-    keyword = "产品经理"  # 主关键词
-    for city in TIER1_CITIES:
-        if verbose:
-            print(f"    搜索 {city}...", end=" ", flush=True)
-        try:
-            # 只取第1页
-            data = search_lagou(keyword, city, page=1)
-            jobs = parse_lagou_result(data)
-            all_jobs.extend(jobs)
+    for keyword in keywords:
+        for city in TIER1_CITIES[:4]:  # 北上广深
             if verbose:
-                print(f"✅ {len(jobs)} 个职位")
-        except Exception as e:
-            if verbose:
-                print(f"❌ {e}")
+                print(f"    搜索 '{keyword}' @ {city}...", end=" ", flush=True)
+            try:
+                jobs = search_playwright(keyword, city, max_pages=2)
+                all_jobs.extend(jobs)
+                if verbose:
+                    print(f"{'✅' if jobs else '⚠️'} {len(jobs)} 个职位")
+            except Exception as e:
+                if verbose:
+                    print(f"❌ {e}")
 
-        # 礼貌延迟
-        time.sleep(random.uniform(1.5, 3.0))
+            time.sleep(random.uniform(2, 4))
 
-    # 补充搜索其他关键词
-    for extra_kw in ["产品 校招", "产品策划 应届"]:
-        try:
-            data = search_lagou(extra_kw, "北京", page=1)
-            jobs = parse_lagou_result(data)
-            # 去重
-            existing_keys = {(j["title"], j["company"]) for j in all_jobs}
-            for j in jobs:
-                key = (j["title"], j["company"])
-                if key not in existing_keys:
-                    all_jobs.append(j)
-                    existing_keys.add(key)
-            if verbose and jobs:
-                print(f"    [拉勾] 关键词 '{extra_kw}' 补充 {len([j for j in jobs if (j['title'], j['company']) not in existing_keys])} 个")
-        except Exception:
-            pass
-        time.sleep(random.uniform(1.0, 2.0))
+    # 去重
+    seen = set()
+    unique = []
+    for j in all_jobs:
+        key = (j["title"], j["company"], j["city"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(j)
 
     if verbose:
-        print(f"  [拉勾] 共获取 {len(all_jobs)} 个产品类校招职位")
+        print(f"  [拉勾] 共获取 {len(unique)} 个产品类校招职位")
 
-    return all_jobs
+    return unique

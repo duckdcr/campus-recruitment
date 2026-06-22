@@ -57,15 +57,15 @@ def register_sources():
     except Exception as e:
         print(f"  [WARN] GitHub 模块加载失败: {e}")
 
-    # ── 以下源需要浏览器环境，默认禁用 ──
-    # 启用方法: python fetch-jobs.py --sources moka,github,lagou,liepin
+    # ── 以下源需要浏览器环境（Playwright），CI 中会自动安装 ──
+    # 缺失 Playwright 时模块会自行降级返回空列表，不会崩溃
 
     try:
         from sources import lagou
         SOURCES["lagou"] = {
-            "name": "拉勾网 (实验性)",
+            "name": "拉勾网 (Playwright)",
             "module": lagou,
-            "enabled": False,
+            "enabled": True,
             "weight": 2,
         }
     except Exception as e:
@@ -74,26 +74,25 @@ def register_sources():
     try:
         from sources import liepin
         SOURCES["liepin"] = {
-            "name": "猎聘校园 (实验性)",
+            "name": "猎聘校园 (Playwright)",
             "module": liepin,
-            "enabled": False,
+            "enabled": True,
             "weight": 2,
         }
     except Exception as e:
         print(f"  [WARN] 猎聘模块加载失败: {e}")
 
-    # 企业官网直采（暂禁用：大厂 API 端点经常变化且需浏览器 Cookie）
-    # try:
-    #     from sources import company_pages
-    #     SOURCES["company"] = {
-    #         "name": "企业官网直采",
-    #         "module": company_pages,
-    #         "enabled": True,
-    #         "weight": 3,
-    #     }
-    # except Exception as e:
-    #     print(f"  [WARN] 企业官网模块加载失败: {e}")
-    pass
+    # 企业官网直采（requests + BeautifulSoup，无需浏览器）
+    try:
+        from sources import company_pages
+        SOURCES["company"] = {
+            "name": "企业官网直采",
+            "module": company_pages,
+            "enabled": True,
+            "weight": 3,
+        }
+    except Exception as e:
+        print(f"  [WARN] 企业官网模块加载失败: {e}")
 
 
 def generate_sample_data() -> list[dict[str, Any]]:

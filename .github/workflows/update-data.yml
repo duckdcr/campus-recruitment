@@ -22,7 +22,11 @@ jobs:
 
       - name: 安装 Python 依赖
         run: |
-          pip install --quiet requests beautifulsoup4 2>/dev/null || true
+          pip install --quiet requests beautifulsoup4 playwright 2>/dev/null || true
+
+      - name: 安装 Playwright Chromium 浏览器
+        run: |
+          python -m playwright install chromium --with-deps 2>/dev/null || true
 
       - name: 运行数据采集脚本（多源聚合）
         run: |
