@@ -32,7 +32,7 @@ export function Layout({ children, onOpenSubscription }: LayoutProps) {
       <main className="layout-main">{children}</main>
 
       <footer className="layout-footer">
-        校招雷达 · 每日更新一线城市产品类校招信息 · 数据来源：Moka/拉勾/猎聘/企业官网/GitHub社区
+        校招雷达 · 每日更新一线+新一线城市产品类校招信息 · 数据来源：Moka/拉勾/猎聘/企业官网/GitHub社区
       </footer>
     </>
   );

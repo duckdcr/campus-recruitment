@@ -52,7 +52,7 @@ export function useJobs() {
 
   const availableCities = useMemo(() => {
     const set = new Set(allJobs.map((j) => j.city));
-    return Array.from(set).sort();
+    return Array.from(set).filter(Boolean).sort();
   }, [allJobs]);
 
   const availableCategories = useMemo(() => {

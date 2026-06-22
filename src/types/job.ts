@@ -70,6 +70,14 @@ export const DEFAULT_FILTER: FilterState = {
   pageSize: 20,
 };
 
-export const TIER_1_CITIES = ['北京', '上海', '广州', '深圳'];
+/** 一线 + 新一线城市（2025 第一财经 · 新一线城市研究所排名） */
+export const TIER_1_CITIES = [
+  // 一线
+  '北京', '上海', '广州', '深圳',
+  // 新一线
+  '杭州', '成都', '重庆', '武汉', '苏州',
+  '西安', '南京', '长沙', '郑州', '天津',
+  '合肥', '青岛', '东莞', '宁波', '佛山',
+];
 
 export const JOB_CATEGORIES = ['产品', '技术', '运营', '设计', '市场', '销售', '职能'];
