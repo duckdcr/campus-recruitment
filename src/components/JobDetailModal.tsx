@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
-import { X, MapPin, Briefcase, GraduationCap, Clock, Building2, ExternalLink } from 'lucide-react';
+import { X, MapPin, Briefcase, GraduationCap, Clock, Building2, ExternalLink, Database } from 'lucide-react';
 import type { Job } from '../types/job';
-import { formatFullDate } from '../utils';
+import { formatFullDate, getSourceLabel } from '../utils';
 
 interface JobDetailModalProps {
   job: Job;
@@ -79,6 +79,10 @@ export function JobDetailModal({ job, onClose }: JobDetailModalProps) {
             <span className="modal-meta-item">
               <Building2 size={14} />
               {job.industry}
+            </span>
+            <span className="modal-meta-item">
+              <Database size={14} />
+              来源：{getSourceLabel(job.source)}
             </span>
           </div>
 

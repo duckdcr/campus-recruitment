@@ -543,6 +543,23 @@ select {
   color: #fde68a;
 }
 
+.job-card-source-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  background: var(--color-bg-secondary);
+  color: var(--color-text-tertiary);
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+[data-theme='dark'] .job-card-source-badge {
+  border-color: var(--color-border);
+}
+
 /* ── Empty State ──────────────────────────────────── */
 .empty-state {
   text-align: center;

@@ -53,6 +53,29 @@ export function getDateStatus(dateStr: string): { label: string; color: string }
 }
 
 /**
+ * 数据来源显示名称
+ */
+const SOURCE_LABELS: Record<string, string> = {
+  moka: 'Moka',
+  lagou: '拉勾',
+  liepin: '猎聘',
+  'github/0voice/2026春招': 'GitHub校招汇总',
+  'github/Campus2026': 'GitHub校招汇总',
+  sample: '样本数据',
+  bytedance: '字节跳动',
+  tencent: '腾讯',
+  baidu: '百度',
+  jd: '京东',
+  alibaba: '阿里',
+  netease: '网易',
+  huawei: '华为',
+};
+
+export function getSourceLabel(source: string): string {
+  return SOURCE_LABELS[source] || source;
+}
+
+/**
  * 薪资范围排序用（提取数字）
  */
 export function extractSalaryMax(salary: string): number {

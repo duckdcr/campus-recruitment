@@ -1,6 +1,6 @@
 import { MapPin, Briefcase, GraduationCap, Clock } from 'lucide-react';
 import type { Job } from '../types/job';
-import { formatRelativeDate } from '../utils';
+import { formatRelativeDate, getSourceLabel } from '../utils';
 
 interface JobCardProps {
   job: Job;
@@ -55,6 +55,7 @@ export function JobCard({ job, onClick }: JobCardProps) {
 
       <div className="job-card-side">
         {job.featured && <span className="job-card-featured-badge">推荐</span>}
+        <span className="job-card-source-badge">{getSourceLabel(job.source)}</span>
       </div>
     </div>
   );

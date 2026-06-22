@@ -22,11 +22,14 @@ jobs:
 
       - name: 安装 Python 依赖
         run: |
-          pip install --quiet requests
+          pip install --quiet requests beautifulsoup4 2>/dev/null || true
 
-      - name: 运行数据采集脚本
+      - name: 运行数据采集脚本（多源聚合）
         run: |
           python scripts/fetch-jobs.py --output public/data/campus-jobs.json
+        env:
+          # 如果某个数据源失败，自动降级使用样本数据
+          PYTHONUNBUFFERED: 1
 
       - name: 提交数据更新
         uses: stefanzweifel/git-auto-commit-action@v5
