@@ -1,0 +1,61 @@
+name: 每日数据更新 + 部署
+
+on:
+  schedule:
+    # 北京时间每天 08:00 运行 (UTC 00:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 手动触发
+  push:
+    branches: [main]
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装 Python 依赖
+        run: |
+          pip install --quiet requests
+
+      - name: 运行数据采集脚本
+        run: |
+          python scripts/fetch-jobs.py --output public/data/campus-jobs.json
+
+      - name: 提交数据更新
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): 每日校招数据自动更新'
+          file_pattern: public/data/campus-jobs.json
+          commit_user_name: 'Campus Bot'
+          commit_user_email: 'bot@campus-radar.com'
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装前端依赖
+        run: npm ci
+
+      - name: 构建前端
+        run: npm run build
+
+      - name: 部署到阿里云 OSS
+        uses: aliyun/oss-action@v1
+        with:
+          access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          endpoint: ${{ secrets.ALIYUN_OSS_ENDPOINT }}
+          bucket: ${{ secrets.ALIYUN_OSS_BUCKET }}
+          local-folder: dist
+          remote-folder: /
+          # 删除远端不存在的文件
+          delete: true
