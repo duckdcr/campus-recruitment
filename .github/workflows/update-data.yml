@@ -49,13 +49,11 @@ jobs:
         run: npm run build
 
       - name: 部署到阿里云 OSS
-        uses: aliyun/oss-action@v1
+        uses: fangbinwei/aliyun-oss-website-action@v1
         with:
-          access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
-          access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          accessKeyId: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          accessKeySecret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           endpoint: ${{ secrets.ALIYUN_OSS_ENDPOINT }}
           bucket: ${{ secrets.ALIYUN_OSS_BUCKET }}
-          local-folder: dist
-          remote-folder: /
-          # 删除远端不存在的文件
-          delete: true
+          folder: dist
+          skipSetting: true
