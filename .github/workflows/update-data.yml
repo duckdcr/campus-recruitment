@@ -36,13 +36,16 @@ jobs:
           PYTHONUNBUFFERED: 1
 
       - name: 提交数据更新（无变更时跳过）
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore(data): 每日校招数据自动更新'
-          file_pattern: public/data/campus-jobs.json
-          commit_user_name: 'Campus Bot'
-          commit_user_email: 'bot@campus-radar.com'
-          skip_dirty_check: true
+        run: |
+          git config user.name 'Campus Bot'
+          git config user.email 'bot@campus-radar.com'
+          git add public/data/campus-jobs.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m 'chore(data): 每日校招数据自动更新'
+            git push
+          fi
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
