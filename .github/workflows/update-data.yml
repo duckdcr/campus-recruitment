@@ -35,13 +35,14 @@ jobs:
           # 如果某个数据源失败，自动降级使用样本数据
           PYTHONUNBUFFERED: 1
 
-      - name: 提交数据更新
+      - name: 提交数据更新（无变更时跳过）
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore(data): 每日校招数据自动更新'
           file_pattern: public/data/campus-jobs.json
           commit_user_name: 'Campus Bot'
           commit_user_email: 'bot@campus-radar.com'
+          skip_dirty_check: true
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
