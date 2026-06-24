@@ -242,16 +242,19 @@ def main():
 
     def run_with_timeout(fn, timeout_sec=180):
         """运行函数并设置超时，超时时返回空列表"""
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
-            fut = pool.submit(fn)
-            try:
-                return fut.result(timeout=timeout_sec)
-            except concurrent.futures.TimeoutError:
-                print(f"  ⏰ 超时 (>={timeout_sec}s)，跳过此数据源")
-                return []
-            except Exception as e:
-                print(f"  ❌ 采集异常: {e}")
-                return []
+        pool = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+        fut = pool.submit(fn)
+        try:
+            return fut.result(timeout=timeout_sec)
+        except concurrent.futures.TimeoutError:
+            print(f"  ⏰ 超时 (>={timeout_sec}s)，跳过此数据源")
+            return []
+        except Exception as e:
+            print(f"  ❌ 采集异常: {e}")
+            return []
+        finally:
+            # 不等待正在运行的线程（可能已挂死）
+            pool.shutdown(wait=False, cancel_futures=True)
 
     for source_key in enabled_sources:
         source_info = SOURCES[source_key]

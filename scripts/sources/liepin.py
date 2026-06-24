@@ -40,12 +40,12 @@ def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[
             page = context.new_page()
 
             # 先访问校园招聘页面获取 cookie
-            page.goto("https://campus.liepin.com/", wait_until="networkidle", timeout=30000)
+            page.goto("https://campus.liepin.com/", wait_until="load", timeout=30000)
             time.sleep(2)
 
             # 搜索职位
             search_url = f"https://www.liepin.com/zhaopin/?key={keyword}&dq=应届生&city={city}"
-            page.goto(search_url, wait_until="networkidle", timeout=30000)
+            page.goto(search_url, wait_until="load", timeout=30000)
             time.sleep(3)
 
             for page_num in range(max_pages):
@@ -148,7 +148,7 @@ def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[
                     if next_btn and next_btn.is_enabled():
                         next_btn.click()
                         time.sleep(random.uniform(3, 5))
-                        page.wait_for_load_state("networkidle", timeout=15000)
+                        page.wait_for_load_state("load", timeout=15000)
                     else:
                         break
                 except Exception:

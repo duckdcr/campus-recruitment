@@ -47,7 +47,7 @@ def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[
             params = f"keyword={keyword}&city={city}"
             url = CAMPUS_SEARCH_URL + params
 
-            page.goto(url, wait_until="networkidle", timeout=30000)
+            page.goto(url, wait_until="load", timeout=30000)
             time.sleep(2)
 
             for page_num in range(max_pages):
@@ -114,7 +114,7 @@ def search_playwright(keyword: str, city: str, max_pages: int = 3) -> list[dict[
                     if next_btn and next_btn.is_enabled():
                         next_btn.click()
                         time.sleep(random.uniform(2, 4))
-                        page.wait_for_load_state("networkidle", timeout=15000)
+                        page.wait_for_load_state("load", timeout=15000)
                     else:
                         break
                 except Exception:
