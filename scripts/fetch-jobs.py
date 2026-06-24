@@ -20,6 +20,7 @@ import os
 import json
 import time
 import argparse
+import concurrent.futures
 from datetime import datetime, timezone
 from typing import Any
 
@@ -239,11 +240,27 @@ def main():
     all_jobs: list[dict[str, Any]] = []
     source_stats: dict[str, int] = {}
 
+    def run_with_timeout(fn, timeout_sec=180):
+        """运行函数并设置超时，超时时返回空列表"""
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
+            fut = pool.submit(fn)
+            try:
+                return fut.result(timeout=timeout_sec)
+            except concurrent.futures.TimeoutError:
+                print(f"  ⏰ 超时 (>={timeout_sec}s)，跳过此数据源")
+                return []
+            except Exception as e:
+                print(f"  ❌ 采集异常: {e}")
+                return []
+
     for source_key in enabled_sources:
         source_info = SOURCES[source_key]
         try:
             print(f"\n▶ 数据源: {source_info['name']}")
-            jobs = source_info["module"].scrape(verbose=verbose)
+            jobs = run_with_timeout(
+                lambda sk=source_key: SOURCES[sk]["module"].scrape(verbose=verbose),
+                timeout_sec=180,
+            )
             all_jobs.extend(jobs)
             source_stats[source_info["name"]] = len(jobs)
         except Exception as e:
