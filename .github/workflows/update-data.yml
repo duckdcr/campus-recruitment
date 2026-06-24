@@ -8,6 +8,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
