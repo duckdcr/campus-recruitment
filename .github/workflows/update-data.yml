@@ -30,7 +30,7 @@ jobs:
 
       - name: 运行数据采集脚本（多源聚合）
         run: |
-          timeout 300 python scripts/fetch-jobs.py --output public/data/campus-jobs.json || echo "数据采集超时，使用仓库现有数据"
+          python scripts/fetch-jobs.py --output public/data/campus-jobs.json --sources moka,github,company || python scripts/fetch-jobs.py --output public/data/campus-jobs.json --sample
         env:
           # 如果某个数据源失败，自动降级使用样本数据
           PYTHONUNBUFFERED: 1
