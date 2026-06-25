@@ -2,8 +2,11 @@ name: 每日数据更新 + 部署
 
 on:
   schedule:
-    # 北京时间每天 08:00 运行 (UTC 00:00)
-    - cron: '0 0 * * *'
+    # 避开 UTC 整点和半点高峰，使用 :17 分钟
+    # 每天 BJ 09:17 / UTC 01:17 运行（早间数据）
+    - cron: '17 1 * * *'
+    # 每天 BJ 21:17 / UTC 13:17 备份运行（若早间被丢弃则补跑）
+    - cron: '17 13 * * *'
   workflow_dispatch:  # 手动触发
   push:
     branches: [main]
