@@ -11,7 +11,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168983+00:00",
+    "postedAt": "2026-09-18T05:59:13.383008+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -20,8 +20,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "smartx",
-      "产品"
+      "产品",
+      "smartx"
     ],
     "featured": false
   },
@@ -37,7 +37,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168961+00:00",
+    "postedAt": "2026-09-18T05:59:13.382986+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -46,8 +46,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "中控信息",
-      "产品"
+      "产品",
+      "中控信息"
     ],
     "featured": false
   },
@@ -63,7 +63,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168862+00:00",
+    "postedAt": "2026-09-18T05:59:13.382885+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -72,8 +72,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "平安银行",
-      "产品"
+      "产品",
+      "平安银行"
     ],
     "featured": false
   },
@@ -89,7 +89,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168841+00:00",
+    "postedAt": "2026-09-18T05:59:13.382863+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -97,9 +97,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "招商银行信用卡",
       "校招",
-      "产品"
+      "产品",
+      "招商银行信用卡"
     ],
     "featured": false
   },
@@ -115,7 +115,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168753+00:00",
+    "postedAt": "2026-09-18T05:59:13.382775+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -123,8 +123,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "小米",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -141,7 +141,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168731+00:00",
+    "postedAt": "2026-09-18T05:59:13.382759+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -149,8 +149,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "小米",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -167,7 +167,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168724+00:00",
+    "postedAt": "2026-09-18T05:59:13.382751+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -175,8 +175,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "小米",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -193,7 +193,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.168683+00:00",
+    "postedAt": "2026-09-18T05:59:13.382710+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -201,8 +201,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "OPPO",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -219,7 +219,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167749+00:00",
+    "postedAt": "2026-09-18T05:59:13.381752+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -228,8 +228,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "全灵",
-      "产品"
+      "产品",
+      "全灵"
     ],
     "featured": false
   },
@@ -245,7 +245,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167740+00:00",
+    "postedAt": "2026-09-18T05:59:13.381743+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -254,8 +254,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "全灵",
-      "产品"
+      "产品",
+      "全灵"
     ],
     "featured": false
   },
@@ -271,7 +271,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167717+00:00",
+    "postedAt": "2026-09-18T05:59:13.381720+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -297,7 +297,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167632+00:00",
+    "postedAt": "2026-09-18T05:59:13.381632+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -305,8 +305,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "网易",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -323,7 +323,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167547+00:00",
+    "postedAt": "2026-09-18T05:59:13.381545+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -332,8 +332,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "携程旅行",
-      "产品"
+      "产品",
+      "携程旅行"
     ],
     "featured": false
   },
@@ -349,7 +349,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167438+00:00",
+    "postedAt": "2026-09-18T05:59:13.381434+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -375,7 +375,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167416+00:00",
+    "postedAt": "2026-09-18T05:59:13.381412+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -401,7 +401,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167377+00:00",
+    "postedAt": "2026-09-18T05:59:13.381390+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -410,8 +410,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "深信服",
-      "产品"
+      "产品",
+      "深信服"
     ],
     "featured": false
   },
@@ -427,7 +427,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167356+00:00",
+    "postedAt": "2026-09-18T05:59:13.381368+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -436,8 +436,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "腾讯云智",
-      "产品"
+      "产品",
+      "腾讯云智"
     ],
     "featured": false
   },
@@ -453,7 +453,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167334+00:00",
+    "postedAt": "2026-09-18T05:59:13.381342+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -461,9 +461,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "金山软件",
       "校招",
-      "产品"
+      "产品",
+      "金山软件"
     ],
     "featured": false
   },
@@ -479,7 +479,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167312+00:00",
+    "postedAt": "2026-09-18T05:59:13.381284+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -487,8 +487,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "北森",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -505,7 +505,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167271+00:00",
+    "postedAt": "2026-09-18T05:59:13.381243+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -514,8 +514,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "平安银行",
-      "产品"
+      "产品",
+      "平安银行"
     ],
     "featured": false
   },
@@ -531,7 +531,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167249+00:00",
+    "postedAt": "2026-09-18T05:59:13.381221+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -540,8 +540,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "招商银行",
-      "产品"
+      "产品",
+      "招商银行"
     ],
     "featured": false
   },
@@ -557,7 +557,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167228+00:00",
+    "postedAt": "2026-09-18T05:59:13.381199+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -565,9 +565,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "中国银行",
       "校招",
-      "产品"
+      "产品",
+      "中国银行"
     ],
     "featured": false
   },
@@ -583,7 +583,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167185+00:00",
+    "postedAt": "2026-09-18T05:59:13.381157+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -592,8 +592,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "吉利",
-      "产品"
+      "产品",
+      "吉利"
     ],
     "featured": false
   },
@@ -609,7 +609,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167162+00:00",
+    "postedAt": "2026-09-18T05:59:13.381135+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -617,9 +617,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "小鹏",
       "校招",
-      "产品"
+      "产品",
+      "小鹏"
     ],
     "featured": false
   },
@@ -635,7 +635,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167140+00:00",
+    "postedAt": "2026-09-18T05:59:13.381111+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -644,8 +644,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "联想",
-      "产品"
+      "产品",
+      "联想"
     ],
     "featured": false
   },
@@ -661,7 +661,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167119+00:00",
+    "postedAt": "2026-09-18T05:59:13.381088+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -670,8 +670,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "理想",
-      "产品"
+      "产品",
+      "理想"
     ],
     "featured": false
   },
@@ -687,7 +687,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167097+00:00",
+    "postedAt": "2026-09-18T05:59:13.381065+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -696,8 +696,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "蔚来",
-      "产品"
+      "产品",
+      "蔚来"
     ],
     "featured": false
   },
@@ -713,7 +713,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167065+00:00",
+    "postedAt": "2026-09-18T05:59:13.381031+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -722,8 +722,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "叠纸",
-      "产品"
+      "产品",
+      "叠纸"
     ],
     "featured": false
   },
@@ -739,7 +739,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167050+00:00",
+    "postedAt": "2026-09-18T05:59:13.381015+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -748,8 +748,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "腾讯游戏",
-      "产品"
+      "产品",
+      "腾讯游戏"
     ],
     "featured": false
   },
@@ -765,7 +765,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167042+00:00",
+    "postedAt": "2026-09-18T05:59:13.381008+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -774,8 +774,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "腾讯游戏",
-      "产品"
+      "产品",
+      "腾讯游戏"
     ],
     "featured": false
   },
@@ -791,7 +791,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167020+00:00",
+    "postedAt": "2026-09-18T05:59:13.380986+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -817,7 +817,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.167012+00:00",
+    "postedAt": "2026-09-18T05:59:13.380977+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -843,7 +843,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166990+00:00",
+    "postedAt": "2026-09-18T05:59:13.380955+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -852,8 +852,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "完美世界",
-      "产品"
+      "产品",
+      "完美世界"
     ],
     "featured": false
   },
@@ -869,7 +869,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166976+00:00",
+    "postedAt": "2026-09-18T05:59:13.380941+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -878,8 +878,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "米哈游",
-      "产品"
+      "产品",
+      "米哈游"
     ],
     "featured": false
   },
@@ -895,7 +895,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166968+00:00",
+    "postedAt": "2026-09-18T05:59:13.380933+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -904,8 +904,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "米哈游",
-      "产品"
+      "产品",
+      "米哈游"
     ],
     "featured": false
   },
@@ -921,7 +921,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166926+00:00",
+    "postedAt": "2026-09-18T05:59:13.380890+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -947,7 +947,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166910+00:00",
+    "postedAt": "2026-09-18T05:59:13.380873+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -973,7 +973,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166897+00:00",
+    "postedAt": "2026-09-18T05:59:13.380860+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -982,8 +982,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "高通",
-      "产品"
+      "产品",
+      "高通"
     ],
     "featured": false
   },
@@ -999,7 +999,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166881+00:00",
+    "postedAt": "2026-09-18T05:59:13.380843+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1008,8 +1008,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "高通",
-      "产品"
+      "产品",
+      "高通"
     ],
     "featured": false
   },
@@ -1025,7 +1025,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166868+00:00",
+    "postedAt": "2026-09-18T05:59:13.380829+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1051,7 +1051,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166851+00:00",
+    "postedAt": "2026-09-18T05:59:13.380812+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1077,7 +1077,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166829+00:00",
+    "postedAt": "2026-09-18T05:59:13.380789+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1085,9 +1085,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "英特尔",
       "校招",
-      "产品"
+      "产品",
+      "英特尔"
     ],
     "featured": false
   },
@@ -1103,7 +1103,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166822+00:00",
+    "postedAt": "2026-09-18T05:59:13.380782+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1111,9 +1111,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "英特尔",
       "校招",
-      "产品"
+      "产品",
+      "英特尔"
     ],
     "featured": false
   },
@@ -1129,7 +1129,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166805+00:00",
+    "postedAt": "2026-09-18T05:59:13.380765+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1137,9 +1137,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "英特尔",
       "校招",
-      "产品"
+      "产品",
+      "英特尔"
     ],
     "featured": false
   },
@@ -1155,7 +1155,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166791+00:00",
+    "postedAt": "2026-09-18T05:59:13.380752+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1181,7 +1181,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166774+00:00",
+    "postedAt": "2026-09-18T05:59:13.380734+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1207,7 +1207,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166750+00:00",
+    "postedAt": "2026-09-18T05:59:13.380711+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1216,8 +1216,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "微软",
-      "产品"
+      "产品",
+      "微软"
     ],
     "featured": false
   },
@@ -1233,7 +1233,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166733+00:00",
+    "postedAt": "2026-09-18T05:59:13.380694+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1242,8 +1242,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "微软",
-      "产品"
+      "产品",
+      "微软"
     ],
     "featured": false
   },
@@ -1259,7 +1259,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166686+00:00",
+    "postedAt": "2026-09-18T05:59:13.380646+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1268,8 +1268,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1285,7 +1285,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166670+00:00",
+    "postedAt": "2026-09-18T05:59:13.380629+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1294,8 +1294,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1311,7 +1311,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166653+00:00",
+    "postedAt": "2026-09-18T05:59:13.380613+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1320,8 +1320,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1337,7 +1337,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166637+00:00",
+    "postedAt": "2026-09-18T05:59:13.380596+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1346,8 +1346,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1363,7 +1363,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166620+00:00",
+    "postedAt": "2026-09-18T05:59:13.380580+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1372,8 +1372,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1389,7 +1389,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166604+00:00",
+    "postedAt": "2026-09-18T05:59:13.380563+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1398,8 +1398,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1415,7 +1415,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166588+00:00",
+    "postedAt": "2026-09-18T05:59:13.380547+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1424,8 +1424,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1441,7 +1441,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166580+00:00",
+    "postedAt": "2026-09-18T05:59:13.380539+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1450,8 +1450,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1467,7 +1467,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166573+00:00",
+    "postedAt": "2026-09-18T05:59:13.380531+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1476,8 +1476,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1493,7 +1493,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166556+00:00",
+    "postedAt": "2026-09-18T05:59:13.380514+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1502,8 +1502,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "oppo",
-      "产品"
+      "产品",
+      "oppo"
     ],
     "featured": false
   },
@@ -1519,7 +1519,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166532+00:00",
+    "postedAt": "2026-09-18T05:59:13.380491+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1527,9 +1527,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1545,7 +1545,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166513+00:00",
+    "postedAt": "2026-09-18T05:59:13.380474+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1553,9 +1553,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1571,7 +1571,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166494+00:00",
+    "postedAt": "2026-09-18T05:59:13.380458+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1579,9 +1579,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1597,7 +1597,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166475+00:00",
+    "postedAt": "2026-09-18T05:59:13.380442+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1605,9 +1605,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1623,7 +1623,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166467+00:00",
+    "postedAt": "2026-09-18T05:59:13.380434+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1631,9 +1631,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1649,7 +1649,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166459+00:00",
+    "postedAt": "2026-09-18T05:59:13.380426+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1657,9 +1657,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1675,7 +1675,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166439+00:00",
+    "postedAt": "2026-09-18T05:59:13.380409+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1683,9 +1683,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "vivo",
       "校招",
-      "产品"
+      "产品",
+      "vivo"
     ],
     "featured": false
   },
@@ -1701,7 +1701,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166410+00:00",
+    "postedAt": "2026-09-18T05:59:13.380386+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1710,8 +1710,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "360",
-      "产品"
+      "产品",
+      "360"
     ],
     "featured": false
   },
@@ -1727,7 +1727,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166382+00:00",
+    "postedAt": "2026-09-18T05:59:13.380377+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1736,8 +1736,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "360",
-      "产品"
+      "产品",
+      "360"
     ],
     "featured": false
   },
@@ -1753,7 +1753,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166363+00:00",
+    "postedAt": "2026-09-18T05:59:13.380360+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1762,8 +1762,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "360",
-      "产品"
+      "产品",
+      "360"
     ],
     "featured": false
   },
@@ -1779,7 +1779,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166337+00:00",
+    "postedAt": "2026-09-18T05:59:13.380334+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1788,8 +1788,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "哔哩哔哩",
-      "产品"
+      "产品",
+      "哔哩哔哩"
     ],
     "featured": false
   },
@@ -1805,7 +1805,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166329+00:00",
+    "postedAt": "2026-09-18T05:59:13.380324+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1814,8 +1814,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "哔哩哔哩",
-      "产品"
+      "产品",
+      "哔哩哔哩"
     ],
     "featured": false
   },
@@ -1831,7 +1831,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166309+00:00",
+    "postedAt": "2026-09-18T05:59:13.380277+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1840,8 +1840,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "哔哩哔哩",
-      "产品"
+      "产品",
+      "哔哩哔哩"
     ],
     "featured": false
   },
@@ -1857,7 +1857,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166283+00:00",
+    "postedAt": "2026-09-18T05:59:13.380254+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1866,8 +1866,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -1883,7 +1883,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166263+00:00",
+    "postedAt": "2026-09-18T05:59:13.380237+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1892,8 +1892,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -1909,7 +1909,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166255+00:00",
+    "postedAt": "2026-09-18T05:59:13.380229+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1918,8 +1918,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -1935,7 +1935,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166247+00:00",
+    "postedAt": "2026-09-18T05:59:13.380221+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1944,8 +1944,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -1961,7 +1961,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166239+00:00",
+    "postedAt": "2026-09-18T05:59:13.380213+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1970,8 +1970,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -1987,7 +1987,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166220+00:00",
+    "postedAt": "2026-09-18T05:59:13.380196+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -1996,8 +1996,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小红书",
-      "产品"
+      "产品",
+      "小红书"
     ],
     "featured": false
   },
@@ -2013,7 +2013,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166206+00:00",
+    "postedAt": "2026-09-18T05:59:13.380181+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2039,7 +2039,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166198+00:00",
+    "postedAt": "2026-09-18T05:59:13.380172+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2065,7 +2065,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166173+00:00",
+    "postedAt": "2026-09-18T05:59:13.380149+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2073,8 +2073,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "小米",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -2091,7 +2091,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166148+00:00",
+    "postedAt": "2026-09-18T05:59:13.380126+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2099,9 +2099,9 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "华为",
       "校招",
-      "产品"
+      "产品",
+      "华为"
     ],
     "featured": false
   },
@@ -2117,7 +2117,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166124+00:00",
+    "postedAt": "2026-09-18T05:59:13.380101+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2125,8 +2125,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "网易",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -2143,7 +2143,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166099+00:00",
+    "postedAt": "2026-09-18T05:59:13.380069+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2152,8 +2152,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "美团",
-      "产品"
+      "产品",
+      "美团"
     ],
     "featured": false
   },
@@ -2169,7 +2169,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166074+00:00",
+    "postedAt": "2026-09-18T05:59:13.380028+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2178,8 +2178,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "字节跳动",
-      "产品"
+      "产品",
+      "字节跳动"
     ],
     "featured": false
   },
@@ -2195,7 +2195,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166047+00:00",
+    "postedAt": "2026-09-18T05:59:13.379989+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2203,8 +2203,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "阿里巴巴",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -2221,7 +2221,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.166017+00:00",
+    "postedAt": "2026-09-18T05:59:13.379943+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2229,8 +2229,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "公司",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -2247,7 +2247,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.165982+00:00",
+    "postedAt": "2026-09-18T05:59:13.379904+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2256,8 +2256,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "快手",
-      "产品"
+      "产品",
+      "快手"
     ],
     "featured": false
   },
@@ -2273,7 +2273,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.165937+00:00",
+    "postedAt": "2026-09-18T05:59:13.379864+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2281,8 +2281,8 @@
     "source": "github/Campus2026",
     "type": "campus",
     "tags": [
-      "校招",
       "京东",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -2299,7 +2299,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.165891+00:00",
+    "postedAt": "2026-09-18T05:59:13.379822+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2325,7 +2325,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:18.165812+00:00",
+    "postedAt": "2026-09-18T05:59:13.379752+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2334,8 +2334,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "百度",
-      "产品"
+      "产品",
+      "百度"
     ],
     "featured": false
   },
@@ -2351,7 +2351,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:17.990023+00:00",
+    "postedAt": "2026-09-18T05:59:13.297682+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2359,9 +2359,9 @@
     "source": "github/0voice/2026春招",
     "type": "campus",
     "tags": [
-      "点击查看",
       "校招",
-      "产品"
+      "产品",
+      "点击查看"
     ],
     "featured": false
   },
@@ -2377,7 +2377,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:17.989651+00:00",
+    "postedAt": "2026-09-18T05:59:13.297311+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2385,9 +2385,9 @@
     "source": "github/0voice/2026春招",
     "type": "campus",
     "tags": [
-      "点击查看",
       "校招",
-      "产品"
+      "产品",
+      "点击查看"
     ],
     "featured": false
   },
@@ -2403,7 +2403,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:17.989601+00:00",
+    "postedAt": "2026-09-18T05:59:13.297243+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2411,9 +2411,9 @@
     "source": "github/0voice/2026春招",
     "type": "campus",
     "tags": [
-      "点击查看",
       "校招",
-      "产品"
+      "产品",
+      "点击查看"
     ],
     "featured": false
   },
@@ -2429,7 +2429,7 @@
     "education": "本科及以上",
     "experience": "应届",
     "category": "产品",
-    "postedAt": "2026-09-17T17:40:17.984087+00:00",
+    "postedAt": "2026-09-18T05:59:13.291802+00:00",
     "deadline": "",
     "description": "",
     "requirements": [],
@@ -2437,9 +2437,177 @@
     "source": "github/0voice/2026春招",
     "type": "campus",
     "tags": [
-      "点击查看",
       "校招",
-      "产品"
+      "产品",
+      "点击查看"
+    ],
+    "featured": false
+  },
+  {
+    "id": "76dd89578b3b",
+    "title": "电商培训生（深圳）",
+    "company": "大疆",
+    "companyLogo": "",
+    "industry": "硬件/无人机",
+    "city": "深圳",
+    "location": "深圳",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "电商",
+    "postedAt": "2026-09-18T03:25:45.000Z",
+    "deadline": "",
+    "description": "职位简介： 面向校园招聘的电商业务储备岗位，参与中国电商、Amazon、TikTok等核心平台业务，接触国内外市场和完整电商经营链路。通过运营、推广、客户协同等实战历练，提升平台运营、数据分析和生意操盘能力。 工作职责： 1. 参与制定并执行平台的运营策略，推动市占及销售目标等核心业务指标达成； 2. 基于产品卖点、用户需求和平台特点，优化商品展陈页面、口碑评论、促销机制等，提升转化率； 3. 参与新品上市、大促活动等关键项目，跟踪销售、流量、转化、现货率等关键数据，进行运营优化建议； 4. 关注市场趋势、竞品动态和用户反馈，支持业务决策。 任职要求： 1. 本科及以上学历，英语/日语/韩语/法语/德语/西班牙语（以上任一）可作为工作语言优先； 2. 逻辑思维能力强，有良好的沟通及协调能力，抗压能力强； 3. 具备较好的数据敏感度，善于从数据中发现问题并提出改进思路。",
+    "requirements": [
+      "职位简介： 面向校园招聘的电商业务储备岗位，参与中国电商、Amazon、TikTok等核心平台业务，接触国内外市场和完整电商经营链路。通过运营、推广、客户协同等实战历练，提升平台运营、数据分析和生意操盘能力。 工作职责： 1. 参与制定并执"
+    ],
+    "applyUrl": "https://we.dji.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "大疆",
+      "电商"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ffc0e647181a",
+    "title": "【实习】特效设计师（剑心）",
+    "company": "西山居",
+    "companyLogo": "",
+    "industry": "游戏",
+    "city": "珠海市",
+    "location": "珠海市",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "美术音频",
+    "postedAt": "2026-09-18T01:21:05.000Z",
+    "deadline": "",
+    "description": "岗位职责：1.完成游戏中各类特效设计与制作。2.与美术、程序、策划共同研究效果完成项目内的需求。任职要求：1.良好的美术功底，对于图形、色彩、立体构成等基础领域有良好的理解，具备手绘能力。2.热爱游戏，具备基本的游戏3D特效认知。3.熟练掌握3Dmax，unity3D，PS等常用美术软件，对游戏引擎有基本认知，对粒子系统有深入了解。4.良好的沟通和学习能力，能够独立解决简单问题并做到举一反三。5.能使用各种软件或AI制作特效素材。6.平时爱玩游戏，爱看动画，电影，资深游戏玩家。",
+    "requirements": [
+      "岗位职责：1.完成游戏中各类特效设计与制作。2.与美术、程序、策划共同研究效果完成项目内的需求。任职要求：1.良好的美术功底，对于图形、色彩、立体构成等基础领域有良好的理解，具备手绘能力。2.热爱游戏，具备基本的游戏3D特效认知。3.熟练掌"
+    ],
+    "applyUrl": "https://hr.xishanju.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "西山居",
+      "美术音频"
+    ],
+    "featured": false
+  },
+  {
+    "id": "e9ad7aa6742f",
+    "title": "【实习】场景建模（剑心）",
+    "company": "西山居",
+    "companyLogo": "",
+    "industry": "游戏",
+    "city": "珠海市",
+    "location": "珠海市",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "美术音频",
+    "postedAt": "2026-09-18T01:20:58.000Z",
+    "deadline": "",
+    "description": "1.根据游戏原画，独立完成游戏世界里3D场景的建模、材质、贴图等的设计制作。2.使用AI工具辅助生成概念草图、材质细节或贴图资源任职要求：1.手绘核心能力：具备扎实的美术功底与手绘贴图能力，能够独立完成场景物件的颜色贴图绘制，熟练处理光影过渡、色彩冷暖关系及笔触质感，对Q版/写实等不同风格的手绘表现有良好把控力。2.审美能力强，能准确还原原画设计，完成高质量的场景资源。3.熟练使用3dmax/Blender、Photoshop、Bodypaint，Zbrush及相关软件4.会使用&nbsp;tripo3d / modddif等AI绘图工具",
+    "requirements": [
+      "1.根据游戏原画，独立完成游戏世界里3D场景的建模、材质、贴图等的设计制作。2.使用AI工具辅助生成概念草图、材质细节或贴图资源任职要求：1.手绘核心能力：具备扎实的美术功底与手绘贴图能力，能够独立完成场景物件的颜色贴图绘制，熟练处理光影过"
+    ],
+    "applyUrl": "https://hr.xishanju.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "西山居",
+      "美术音频"
+    ],
+    "featured": false
+  },
+  {
+    "id": "5dd09d82633c",
+    "title": "【实习】场景原画（剑心）",
+    "company": "西山居",
+    "companyLogo": "",
+    "industry": "游戏",
+    "city": "珠海市",
+    "location": "珠海市",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "美术音频",
+    "postedAt": "2026-09-18T01:20:54.000Z",
+    "deadline": "",
+    "description": "岗位职责：1.负责游戏场景的概念设计以及对场景、建筑、道具、手绘贴图等进行原画设计。任职要求：1.扎实的美术功底和良好的审美能力。2.良好设计能力以及审美，设计图能表达出清晰的结构和质感，并能体现足够的原创感和设计感。3.责任心强，有丰富的创造力，有很强的团队合作精神。4.精通Photoshop等绘图软件，对3d软件有一定了解，能熟练使用AI辅助工作流程，能积极配合团队按时按质完成工作。",
+    "requirements": [
+      "岗位职责：1.负责游戏场景的概念设计以及对场景、建筑、道具、手绘贴图等进行原画设计。任职要求：1.扎实的美术功底和良好的审美能力。2.良好设计能力以及审美，设计图能表达出清晰的结构和质感，并能体现足够的原创感和设计感。3.责任心强，有丰富的"
+    ],
+    "applyUrl": "https://hr.xishanju.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "西山居",
+      "美术音频"
+    ],
+    "featured": false
+  },
+  {
+    "id": "7775e82503ae",
+    "title": "【实习】角色建模（剑心）",
+    "company": "西山居",
+    "companyLogo": "",
+    "industry": "游戏",
+    "city": "珠海市",
+    "location": "珠海市",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "美术音频",
+    "postedAt": "2026-09-18T01:20:49.000Z",
+    "deadline": "",
+    "description": "岗位职责：1.根据原画的设计，高品质的还原设计思路，制造出符合项目要求的角色。2.负责导入制作好的游戏角色到引擎，在引擎中赋予并调试材质。3.负责3D模型的制作和贴图制作，也包括模型的优化和修改。4.管理并优化资产库里的美术资产。5.对接外包反馈，处理外包提交的美术资产。任职要求:1.优秀的审美能力､扎实的美术基础知识、3D建模和出色的手绘纹理技巧2.优秀的团队合作能力，必要时与其他同事协作完成作品。3.能够快速吸收反馈并理解反馈。4.能够独立工作并推动质量标准。5.优秀的沟通能力，能够清晰表达自己的设计方向并描述遇到的问题。6，熟练使用3Dmax，BodyPaint，Photoshop，unity，ZBrush，Substance Painter，等软件加分项:1.喜欢剑侠情缘系列2.熟悉各类mmo武侠游戏的美术风格。",
+    "requirements": [
+      "岗位职责：1.根据原画的设计，高品质的还原设计思路，制造出符合项目要求的角色。2.负责导入制作好的游戏角色到引擎，在引擎中赋予并调试材质。3.负责3D模型的制作和贴图制作，也包括模型的优化和修改。4.管理并优化资产库里的美术资产。5.对接外"
+    ],
+    "applyUrl": "https://hr.xishanju.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "西山居",
+      "美术音频"
+    ],
+    "featured": false
+  },
+  {
+    "id": "7071f61369f3",
+    "title": "【实习】动作设计师（剑心）",
+    "company": "西山居",
+    "companyLogo": "",
+    "industry": "游戏",
+    "city": "珠海市",
+    "location": "珠海市",
+    "salary": "面议",
+    "education": null,
+    "experience": "应届",
+    "category": "美术音频",
+    "postedAt": "2026-09-18T01:20:31.000Z",
+    "deadline": "",
+    "description": "岗位职责：1.负责游戏中的3D角色的动作设计和制作，能根据角色性格设计出体现角色性格特征并符合游戏性要求的动作。任职要求：1.积极探索AI技术，结合AI技术辅助3D动作生产2.美术功底扎实、富有想象力和创造力，具备原画设计能力者优先。3.对人物及不同生物的运动规律有一定了解，对动作有一定的认识。4.熟练使用3DSMAX进行角色骨胳的绑定及动画制作。5.做事认真细致，精益求精，严于律已，具有高度责任感和团队合作精神，善于主动提出问题并协同解决。",
+    "requirements": [
+      "岗位职责：1.负责游戏中的3D角色的动作设计和制作，能根据角色性格设计出体现角色性格特征并符合游戏性要求的动作。任职要求：1.积极探索AI技术，结合AI技术辅助3D动作生产2.美术功底扎实、富有想象力和创造力，具备原画设计能力者优先。3.对"
+    ],
+    "applyUrl": "https://hr.xishanju.com/campus",
+    "source": "moka",
+    "type": "campus",
+    "tags": [
+      "校招",
+      "西山居",
+      "美术音频"
     ],
     "featured": false
   },
@@ -2466,8 +2634,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -2578,8 +2746,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "商分-数据科学"
+      "商分-数据科学",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -2773,9 +2941,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "客户服务",
       "校招",
-      "众安保险"
+      "众安保险",
+      "客户服务"
     ],
     "featured": false
   },
@@ -2801,8 +2969,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "财务",
+      "校招",
       "众安保险"
     ],
     "featured": false
@@ -2940,8 +3108,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "商分-数据科学"
+      "商分-数据科学",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -2965,9 +3133,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "商分-商业分析"
+      "商分-商业分析",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -3049,9 +3217,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "搜狐",
       "校招",
-      "营销类",
-      "搜狐"
+      "营销类"
     ],
     "featured": false
   },
@@ -3218,8 +3386,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -3246,8 +3414,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -3274,8 +3442,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "UED",
-      "众安保险"
+      "众安保险",
+      "UED"
     ],
     "featured": false
   },
@@ -3301,8 +3469,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "众安保险",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -3329,8 +3497,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "精算&再保类",
+      "校招",
       "众安保险"
     ],
     "featured": false
@@ -3358,8 +3526,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -3413,8 +3581,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "众安保险",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -3554,8 +3722,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -3581,8 +3749,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -3609,8 +3777,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -3638,8 +3806,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -3777,8 +3945,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -3805,9 +3973,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "机械与力学",
       "校招",
-      "大疆"
+      "大疆",
+      "机械与力学"
     ],
     "featured": false
   },
@@ -3833,8 +4001,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -3889,9 +4057,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "工业设计",
       "校招",
-      "大疆",
-      "工业设计"
+      "大疆"
     ],
     "featured": false
   },
@@ -3917,9 +4085,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "供应链管理",
       "校招",
-      "大疆"
+      "大疆",
+      "供应链管理"
     ],
     "featured": false
   },
@@ -3945,8 +4113,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -3973,9 +4141,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "供应链管理",
       "校招",
-      "大疆"
+      "大疆",
+      "供应链管理"
     ],
     "featured": false
   },
@@ -4030,8 +4198,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -4086,8 +4254,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "人力资源",
-      "大疆"
+      "大疆",
+      "人力资源"
     ],
     "featured": false
   },
@@ -4141,9 +4309,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "供应链管理",
       "校招",
-      "大疆"
+      "大疆",
+      "供应链管理"
     ],
     "featured": false
   },
@@ -4169,9 +4337,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "供应链管理",
       "校招",
-      "大疆"
+      "大疆",
+      "供应链管理"
     ],
     "featured": false
   },
@@ -4197,9 +4365,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "供应链管理",
       "校招",
-      "大疆"
+      "大疆",
+      "供应链管理"
     ],
     "featured": false
   },
@@ -4226,8 +4394,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -4281,8 +4449,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "财务",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -4421,9 +4589,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -4477,8 +4645,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -4534,8 +4702,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "供应链工程",
-      "大疆"
+      "大疆",
+      "供应链工程"
     ],
     "featured": false
   },
@@ -4589,37 +4757,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
-      "大疆"
-    ],
-    "featured": false
-  },
-  {
-    "id": "76dd89578b3b",
-    "title": "电商培训生（深圳）",
-    "company": "大疆",
-    "companyLogo": "",
-    "industry": "硬件/无人机",
-    "city": "深圳",
-    "location": "深圳",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "电商",
-    "postedAt": "2026-09-10T10:48:50.000Z",
-    "deadline": "",
-    "description": "职位简介： 面向校园招聘的电商业务储备岗位，参与中国电商、Amazon、TikTok等核心平台业务，接触国内外市场和完整电商经营链路。通过运营、推广、客户协同等实战历练，提升平台运营、数据分析和生意操盘能力。 工作职责： 1. 参与制定并执行平台的运营策略，推动市占及销售目标等核心业务指标达成； 2. 基于产品卖点、用户需求和平台特点，优化商品展陈页面、口碑评论、促销机制等，提升转化率； 3. 参与新品上市、大促活动等关键项目，跟踪销售、流量、转化、现货率等关键数据，进行运营优化建议； 4. 关注市场趋势、竞品动态和用户反馈，支持业务决策。 任职要求： 1. 本科及以上学历，英语/日语/韩语/法语/德语/西班牙语（以上任一）可作为工作语言优先； 2. 逻辑思维能力强，有良好的沟通及协调能力，抗压能力强； 3. 具备较好的数据敏感度，善于从数据中发现问题并提出改进思路。",
-    "requirements": [
-      "职位简介： 面向校园招聘的电商业务储备岗位，参与中国电商、Amazon、TikTok等核心平台业务，接触国内外市场和完整电商经营链路。通过运营、推广、客户协同等实战历练，提升平台运营、数据分析和生意操盘能力。 工作职责： 1. 参与制定并执"
-    ],
-    "applyUrl": "https://we.dji.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
       "校招",
-      "大疆",
-      "电商"
+      "大疆"
     ],
     "featured": false
   },
@@ -4646,8 +4786,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "供应链工程",
-      "大疆"
+      "大疆",
+      "供应链工程"
     ],
     "featured": false
   },
@@ -4673,8 +4813,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -4701,8 +4841,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "财务",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -4729,9 +4869,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -4786,8 +4926,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "销售",
-      "大疆"
+      "大疆",
+      "销售"
     ],
     "featured": false
   },
@@ -4842,8 +4982,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "销售",
-      "大疆"
+      "大疆",
+      "销售"
     ],
     "featured": false
   },
@@ -4953,8 +5093,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -4981,8 +5121,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5009,8 +5149,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5037,8 +5177,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5065,8 +5205,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5093,8 +5233,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5121,9 +5261,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -5149,9 +5289,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "机械与力学",
       "校招",
-      "大疆"
+      "大疆",
+      "机械与力学"
     ],
     "featured": false
   },
@@ -5177,9 +5317,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "机械与力学",
       "校招",
-      "大疆"
+      "大疆",
+      "机械与力学"
     ],
     "featured": false
   },
@@ -5205,8 +5345,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5261,8 +5401,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5289,8 +5429,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5317,8 +5457,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5345,8 +5485,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5373,8 +5513,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5401,8 +5541,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5429,8 +5569,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5457,8 +5597,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5485,8 +5625,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5541,9 +5681,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "机械与力学",
       "校招",
-      "大疆"
+      "大疆",
+      "机械与力学"
     ],
     "featured": false
   },
@@ -5569,8 +5709,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5597,8 +5737,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5737,8 +5877,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5877,8 +6017,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5905,8 +6045,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5933,8 +6073,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5961,8 +6101,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -5989,8 +6129,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -6017,8 +6157,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -6045,8 +6185,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -6073,9 +6213,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -6101,9 +6241,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -6129,9 +6269,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "测试及测试开发",
       "校招",
-      "大疆"
+      "大疆",
+      "测试及测试开发"
     ],
     "featured": false
   },
@@ -6157,8 +6297,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "算法",
+      "校招",
       "大疆"
     ],
     "featured": false
@@ -6242,8 +6382,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -6270,8 +6410,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "大疆",
-      "产品"
+      "产品",
+      "大疆"
     ],
     "featured": false
   },
@@ -6437,9 +6577,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -6550,8 +6690,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "小鹏汽车",
-      "航空专业类"
+      "航空专业类",
+      "小鹏汽车"
     ],
     "featured": false
   },
@@ -6578,8 +6718,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -6633,9 +6773,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "商分-商业分析"
+      "商分-商业分析",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -6661,8 +6801,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "财务",
+      "校招",
       "众安保险"
     ],
     "featured": false
@@ -6690,8 +6830,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "人力资源",
-      "众安保险"
+      "众安保险",
+      "人力资源"
     ],
     "featured": false
   },
@@ -6718,8 +6858,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "人力资源",
-      "众安保险"
+      "众安保险",
+      "人力资源"
     ],
     "featured": false
   },
@@ -6746,8 +6886,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "人力资源",
-      "众安保险"
+      "众安保险",
+      "人力资源"
     ],
     "featured": false
   },
@@ -6774,8 +6914,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -6886,8 +7026,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -6914,8 +7054,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -6942,8 +7082,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "运营",
-      "众安保险"
+      "众安保险",
+      "运营"
     ],
     "featured": false
   },
@@ -6969,8 +7109,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "众安保险",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -6998,8 +7138,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "运营",
-      "众安保险"
+      "众安保险",
+      "运营"
     ],
     "featured": false
   },
@@ -7054,8 +7194,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "BD",
-      "众安保险"
+      "众安保险",
+      "BD"
     ],
     "featured": false
   },
@@ -7082,8 +7222,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "BD",
-      "众安保险"
+      "众安保险",
+      "BD"
     ],
     "featured": false
   },
@@ -7109,9 +7249,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "后端",
       "校招",
-      "众安保险",
-      "后端"
+      "众安保险"
     ],
     "featured": false
   },
@@ -7138,8 +7278,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7166,8 +7306,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7278,8 +7418,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7333,9 +7473,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7362,8 +7502,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7446,8 +7586,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7474,8 +7614,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7501,9 +7641,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7586,8 +7726,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7641,9 +7781,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -7669,9 +7809,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -7864,8 +8004,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -7891,8 +8031,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "众安保险",
+      "校招",
       "产品"
     ],
     "featured": false
@@ -7920,8 +8060,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -7948,8 +8088,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -7976,8 +8116,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "工程-系统类"
+      "工程-系统类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8085,9 +8225,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "商分-商业分析"
+      "商分-商业分析",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8281,8 +8421,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "工程-质量类",
       "校招",
+      "工程-质量类",
       "滴滴出行"
     ],
     "featured": false
@@ -8365,8 +8505,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "工程-前端类",
+      "校招",
       "滴滴出行"
     ],
     "featured": false
@@ -8393,8 +8533,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "工程-前端类",
+      "校招",
       "滴滴出行"
     ],
     "featured": false
@@ -8506,8 +8646,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8785,9 +8925,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8813,9 +8953,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8841,9 +8981,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8869,8 +9009,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "校招",
       "工程-运维类",
+      "校招",
       "滴滴出行"
     ],
     "featured": false
@@ -8926,8 +9066,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -8981,9 +9121,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9009,9 +9149,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9037,9 +9177,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "安全技术类"
+      "安全技术类",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9066,8 +9206,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9122,8 +9262,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9205,9 +9345,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -9233,9 +9373,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -9318,8 +9458,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9430,8 +9570,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9542,8 +9682,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -9626,8 +9766,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -9709,9 +9849,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "知乎",
       "校招",
-      "产品"
+      "产品",
+      "知乎"
     ],
     "featured": false
   },
@@ -9737,9 +9877,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "知乎",
       "校招",
-      "产品"
+      "产品",
+      "知乎"
     ],
     "featured": false
   },
@@ -9765,9 +9905,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "知乎",
       "校招",
-      "产品"
+      "产品",
+      "知乎"
     ],
     "featured": false
   },
@@ -9878,8 +10018,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "研发-算法",
-      "新浪"
+      "新浪",
+      "研发-算法"
     ],
     "featured": false
   },
@@ -9906,8 +10046,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -9934,8 +10074,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -9962,8 +10102,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -9988,8 +10128,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -10016,8 +10156,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -10044,8 +10184,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -10072,8 +10212,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "产品-产品运营",
-      "新浪"
+      "新浪",
+      "产品-产品运营"
     ],
     "featured": false
   },
@@ -10100,8 +10240,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "金融业务",
-      "滴滴出行"
+      "滴滴出行",
+      "金融业务"
     ],
     "featured": false
   },
@@ -10184,8 +10324,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10240,8 +10380,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "金融业务",
-      "滴滴出行"
+      "滴滴出行",
+      "金融业务"
     ],
     "featured": false
   },
@@ -10268,8 +10408,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10408,8 +10548,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10463,8 +10603,8 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "工程-质量类",
       "校招",
+      "工程-质量类",
       "滴滴出行"
     ],
     "featured": false
@@ -10491,9 +10631,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "机器人类",
       "校招",
-      "滴滴出行",
-      "机器人类"
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10575,9 +10715,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "机器人类",
       "校招",
-      "滴滴出行",
-      "机器人类"
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10743,9 +10883,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "机器人类",
       "校招",
-      "滴滴出行",
-      "机器人类"
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10855,9 +10995,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "滴滴出行",
       "校招",
-      "商分-商业分析"
+      "商分-商业分析",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10884,8 +11024,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10940,8 +11080,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "滴滴出行",
-      "产品"
+      "产品",
+      "滴滴出行"
     ],
     "featured": false
   },
@@ -10995,9 +11135,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -11024,8 +11164,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -11080,8 +11220,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11304,8 +11444,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -11332,8 +11472,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "校园招聘",
-      "众安保险"
+      "众安保险",
+      "校园招聘"
     ],
     "featured": false
   },
@@ -11359,9 +11499,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -11388,8 +11528,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11416,8 +11556,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11444,8 +11584,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11472,8 +11612,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11500,8 +11640,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -11612,8 +11752,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -11723,9 +11863,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11751,9 +11891,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11779,9 +11919,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11807,9 +11947,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11835,9 +11975,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11863,9 +12003,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -11919,9 +12059,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -11947,9 +12087,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -11975,9 +12115,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12003,9 +12143,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -12031,9 +12171,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12059,9 +12199,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12115,9 +12255,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12143,9 +12283,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -12171,9 +12311,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12200,8 +12340,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -12228,8 +12368,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -12256,8 +12396,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -12284,8 +12424,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -12312,8 +12452,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "其他"
+      "其他",
+      "新浪"
     ],
     "featured": false
   },
@@ -12340,8 +12480,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "新浪",
-      "产品"
+      "产品",
+      "新浪"
     ],
     "featured": false
   },
@@ -12451,9 +12591,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12645,9 +12785,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -12786,8 +12926,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -13072,118 +13212,6 @@
     "featured": false
   },
   {
-    "id": "ffc0e647181a",
-    "title": "【实习】特效设计师（剑心）",
-    "company": "西山居",
-    "companyLogo": "",
-    "industry": "游戏",
-    "city": "珠海市",
-    "location": "珠海市",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "美术音频",
-    "postedAt": "2026-08-11T07:49:21.000Z",
-    "deadline": "",
-    "description": "岗位职责：1.完成游戏中各类特效设计与制作。2.与美术、程序、策划共同研究效果完成项目内的需求。任职要求：1.良好的美术功底，对于图形、色彩、立体构成等基础领域有良好的理解，具备手绘能力。2.热爱游戏，具备基本的游戏3D特效认知。3.熟练掌握3Dmax，unity3D，PS等常用美术软件，对游戏引擎有基本认知，对粒子系统有深入了解。4.良好的沟通和学习能力，能够独立解决简单问题并做到举一反三。5.能使用各种软件或AI制作特效素材。6.平时爱玩游戏，爱看动画，电影，资深游戏玩家。",
-    "requirements": [
-      "岗位职责：1.完成游戏中各类特效设计与制作。2.与美术、程序、策划共同研究效果完成项目内的需求。任职要求：1.良好的美术功底，对于图形、色彩、立体构成等基础领域有良好的理解，具备手绘能力。2.热爱游戏，具备基本的游戏3D特效认知。3.熟练掌"
-    ],
-    "applyUrl": "https://hr.xishanju.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
-      "校招",
-      "西山居",
-      "美术音频"
-    ],
-    "featured": false
-  },
-  {
-    "id": "e9ad7aa6742f",
-    "title": "【实习】场景建模（剑心）",
-    "company": "西山居",
-    "companyLogo": "",
-    "industry": "游戏",
-    "city": "珠海市",
-    "location": "珠海市",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "美术音频",
-    "postedAt": "2026-08-11T07:48:49.000Z",
-    "deadline": "",
-    "description": "1.根据游戏原画，独立完成游戏世界里3D场景的建模、材质、贴图等的设计制作。2.使用AI工具辅助生成概念草图、材质细节或贴图资源任职要求：1.手绘核心能力：具备扎实的美术功底与手绘贴图能力，能够独立完成场景物件的颜色贴图绘制，熟练处理光影过渡、色彩冷暖关系及笔触质感，对Q版/写实等不同风格的手绘表现有良好把控力。2.审美能力强，能准确还原原画设计，完成高质量的场景资源。3.熟练使用3dmax/Blender、Photoshop、Bodypaint，Zbrush及相关软件4.会使用&nbsp;tripo3d / modddif等AI绘图工具",
-    "requirements": [
-      "1.根据游戏原画，独立完成游戏世界里3D场景的建模、材质、贴图等的设计制作。2.使用AI工具辅助生成概念草图、材质细节或贴图资源任职要求：1.手绘核心能力：具备扎实的美术功底与手绘贴图能力，能够独立完成场景物件的颜色贴图绘制，熟练处理光影过"
-    ],
-    "applyUrl": "https://hr.xishanju.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
-      "校招",
-      "西山居",
-      "美术音频"
-    ],
-    "featured": false
-  },
-  {
-    "id": "7775e82503ae",
-    "title": "【实习】角色建模（剑心）",
-    "company": "西山居",
-    "companyLogo": "",
-    "industry": "游戏",
-    "city": "珠海市",
-    "location": "珠海市",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "美术音频",
-    "postedAt": "2026-08-11T07:48:15.000Z",
-    "deadline": "",
-    "description": "岗位职责：1.根据原画的设计，高品质的还原设计思路，制造出符合项目要求的角色。2.负责导入制作好的游戏角色到引擎，在引擎中赋予并调试材质。3.负责3D模型的制作和贴图制作，也包括模型的优化和修改。4.管理并优化资产库里的美术资产。5.对接外包反馈，处理外包提交的美术资产。任职要求:1.优秀的审美能力､扎实的美术基础知识、3D建模和出色的手绘纹理技巧2.优秀的团队合作能力，必要时与其他同事协作完成作品。3.能够快速吸收反馈并理解反馈。4.能够独立工作并推动质量标准。5.优秀的沟通能力，能够清晰表达自己的设计方向并描述遇到的问题。6，熟练使用3Dmax，BodyPaint，Photoshop，unity，ZBrush，Substance Painter，等软件加分项:1.喜欢剑侠情缘系列2.熟悉各类mmo武侠游戏的美术风格。",
-    "requirements": [
-      "岗位职责：1.根据原画的设计，高品质的还原设计思路，制造出符合项目要求的角色。2.负责导入制作好的游戏角色到引擎，在引擎中赋予并调试材质。3.负责3D模型的制作和贴图制作，也包括模型的优化和修改。4.管理并优化资产库里的美术资产。5.对接外"
-    ],
-    "applyUrl": "https://hr.xishanju.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
-      "校招",
-      "西山居",
-      "美术音频"
-    ],
-    "featured": false
-  },
-  {
-    "id": "7071f61369f3",
-    "title": "【实习】动作设计师（剑心）",
-    "company": "西山居",
-    "companyLogo": "",
-    "industry": "游戏",
-    "city": "珠海市",
-    "location": "珠海市",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "美术音频",
-    "postedAt": "2026-08-11T07:47:56.000Z",
-    "deadline": "",
-    "description": "岗位职责：1.负责游戏中的3D角色的动作设计和制作，能根据角色性格设计出体现角色性格特征并符合游戏性要求的动作。任职要求：1.积极探索AI技术，结合AI技术辅助3D动作生产2.美术功底扎实、富有想象力和创造力，具备原画设计能力者优先。3.对人物及不同生物的运动规律有一定了解，对动作有一定的认识。4.熟练使用3DSMAX进行角色骨胳的绑定及动画制作。5.做事认真细致，精益求精，严于律已，具有高度责任感和团队合作精神，善于主动提出问题并协同解决。",
-    "requirements": [
-      "岗位职责：1.负责游戏中的3D角色的动作设计和制作，能根据角色性格设计出体现角色性格特征并符合游戏性要求的动作。任职要求：1.积极探索AI技术，结合AI技术辅助3D动作生产2.美术功底扎实、富有想象力和创造力，具备原画设计能力者优先。3.对"
-    ],
-    "applyUrl": "https://hr.xishanju.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
-      "校招",
-      "西山居",
-      "美术音频"
-    ],
-    "featured": false
-  },
-  {
     "id": "14a7688a5c3f",
     "title": "【实习】项目管理实习生",
     "company": "西山居",
@@ -13206,8 +13234,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "职能综合"
+      "职能综合",
+      "西山居"
     ],
     "featured": false
   },
@@ -13233,37 +13261,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "运营类/Operation",
       "校招",
-      "月之暗面"
-    ],
-    "featured": false
-  },
-  {
-    "id": "5dd09d82633c",
-    "title": "【实习】场景原画（剑心）",
-    "company": "西山居",
-    "companyLogo": "",
-    "industry": "游戏",
-    "city": "珠海市",
-    "location": "珠海市",
-    "salary": "面议",
-    "education": null,
-    "experience": "应届",
-    "category": "美术音频",
-    "postedAt": "2026-08-10T09:31:05.000Z",
-    "deadline": "",
-    "description": "岗位职责：1.负责游戏场景的概念设计以及对场景、建筑、道具、手绘贴图等进行原画设计。任职要求：1.扎实的美术功底和良好的审美能力。2.良好设计能力以及审美，设计图能表达出清晰的结构和质感，并能体现足够的原创感和设计感。3.责任心强，有丰富的创造力，有很强的团队合作精神。4.精通Photoshop等绘图软件，对3d软件有一定了解，能熟练使用AI辅助工作流程，能积极配合团队按时按质完成工作。",
-    "requirements": [
-      "岗位职责：1.负责游戏场景的概念设计以及对场景、建筑、道具、手绘贴图等进行原画设计。任职要求：1.扎实的美术功底和良好的审美能力。2.良好设计能力以及审美，设计图能表达出清晰的结构和质感，并能体现足够的原创感和设计感。3.责任心强，有丰富的"
-    ],
-    "applyUrl": "https://hr.xishanju.com/campus",
-    "source": "moka",
-    "type": "campus",
-    "tags": [
-      "校招",
-      "西山居",
-      "美术音频"
+      "月之暗面",
+      "运营类/Operation"
     ],
     "featured": false
   },
@@ -13430,8 +13430,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "产品"
+      "产品",
+      "西山居"
     ],
     "featured": false
   },
@@ -13458,8 +13458,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -13485,9 +13485,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -13542,8 +13542,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "运营发行"
+      "运营发行",
+      "西山居"
     ],
     "featured": false
   },
@@ -13710,8 +13710,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "西山居",
-      "职能综合"
+      "职能综合",
+      "西山居"
     ],
     "featured": false
   },
@@ -13737,9 +13737,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -13765,9 +13765,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
+      "职能类/Corporate Functions",
       "校招",
-      "月之暗面",
-      "职能类/Corporate Functions"
+      "月之暗面"
     ],
     "featured": false
   },
@@ -13822,8 +13822,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -13850,8 +13850,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -13933,9 +13933,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "知乎",
       "校招",
-      "产品"
+      "产品",
+      "知乎"
     ],
     "featured": false
   },
@@ -14018,8 +14018,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -14465,9 +14465,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -14493,9 +14493,9 @@
     "source": "moka",
     "type": "campus",
     "tags": [
-      "市场类/Marketing&BD",
       "校招",
-      "月之暗面"
+      "月之暗面",
+      "市场类/Marketing&BD"
     ],
     "featured": false
   },
@@ -14522,8 +14522,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "月之暗面",
-      "产品"
+      "产品",
+      "月之暗面"
     ],
     "featured": false
   },
@@ -14662,8 +14662,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "猫眼",
-      "其他"
+      "其他",
+      "猫眼"
     ],
     "featured": false
   },
@@ -14746,8 +14746,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "技术类",
-      "影石Insta360"
+      "影石Insta360",
+      "技术类"
     ],
     "featured": false
   },
@@ -14830,8 +14830,8 @@
     "type": "campus",
     "tags": [
       "校招",
-      "运营类",
-      "影石Insta360"
+      "影石Insta360",
+      "运营类"
     ],
     "featured": false
   }
